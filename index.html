@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/Tienda de flores xd/css/styles-index.css" />
+    <script src="https://kit.fontawesome.com/8562bd2fa0.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="/img/Sebastian.jpeg" type="image/png">
+    <title>tienda de floristeria xd </title>
+</head>
+
+<body class="body-custom">
+    <div class="container mt-3">
+        <h1>Mi tienda sebastian urrego cardenas </h1>
+        <hr>
+        <hr>
+        <div class="row row-1" id="productList">
+            <!-- estos son los productos disponibles  -->
+        </div>
+        <div class="row row-2">
+            <div class="col-md-12 checkout-cart neo-md border-top">
+                <section>
+                    <h1 class="mt-3">Carrito de compras<i class="fa-solid fa-bag-shopping ml-2"></i></i></h1>
+                    <h4>total precio : <span id="totalCheckout">0.00</span></h4>
+                    <button class="btn btn-success btn-comprar">!comprar¡</button>
+                </section>
+                <table class="table table-custom text-center">
+                    <thead>
+                        <tr>
+                            <th>Producto</th>
+                            <th>Nombre</th>
+                            <th>Cantidad</th>
+                            <th>Precio Unitario</th>
+                            <th>Precio Total</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody id="checkoutCart">
+                        <!-- Productos del carrito. -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="/Tienda de flores xd/script/script-index.js"></script>
+</body>
+
+</html>
